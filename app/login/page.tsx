@@ -1,17 +1,17 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { LogIn } from "lucide-react"
-import Link from "next/link"
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { LogIn } from "lucide-react";
+import Link from "next/link";
 
 export default function LoginPage() {
   return (
@@ -37,7 +37,7 @@ export default function LoginPage() {
           </div>
           <Button className="w-full">Login</Button>
           <p className="text-center text-sm text-muted-foreground">
-            Don't have an account?{" "}
+            Dont have an account?{" "}
             <Link href="/register" className="text-primary hover:underline">
               Register
             </Link>
@@ -45,5 +45,5 @@ export default function LoginPage() {
         </CardContent>
       </Card>
     </div>
-  )
+  );
 }
